@@ -1,0 +1,152 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 16px 16px 0 0;
+}
+
+.topText {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.downloadBtn {
+    background: white;
+    color: #111;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.paper {
+    background: white;
+    padding: 48px;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.02);
+    color: #111;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.schoolName {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.subject {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.className {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.metaInfo {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.generalInstructions {
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.studentInfo {
+    margin-bottom: 48px;
+}
+
+.studentInfoRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.underline {
+    flex: 1;
+    border-bottom: 1px solid #111;
+    margin-left: 8px;
+    height: 20px;
+    max-width: 300px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.sectionSubtitle {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.sectionInstruction {
+    font-size: 14px;
+    font-style: italic;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+}
+
+.questionList {
+    list-style: none;
+    padding: 0;
+}
+
+.questionItem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.questionNum {
+    min-width: 24px;
+}
+
+.questionContent {
+    flex: 1;
+}
+
+.difficulty {
+    font-weight: 600;
+}
+
+.diffEasy { color: #10B981; }
+.diffModerate { color: #F59E0B; }
+.diffHard { color: #EF4444; }
+
+.marks {
+    font-weight: 600;
+}
+
+.endText {
+    font-weight: 700;
+    margin-top: 48px;
+}
